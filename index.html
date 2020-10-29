@@ -2,6 +2,10 @@
 <html>
 
 <head>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="author" content="NancyHsieh">
 	<meta name="description" content="Portfolio GraphicDesign">
@@ -11,19 +15,16 @@
 <body>
 	<header>
 		<div>
-			<h1>Nancy Hsieh&mdash;Graphic Designer</h1>
+			<h1>Nancy Hsieh<br>—Graphic Designer</h1>
 			<nav>
-				<ul>
-					<li><a href="#">Menu</a></li>
-					<li><a href="index.html">Projects</a></li>
-					<li><a href="about.html">About</a></li>
-				</ul>
+				<a href="index.html">Projects</a>
+				<a href="about.html">About</a>
 			</nav>
 		</div>
 	</header>
 
 <main>
-	<div>
+	<div id="projects">
 		<a href="projectgh.html">
 			<picture>
 				<source srcset="img/greenhouse/ghcover.jpg" media="(max-width:767px)">
@@ -70,8 +71,13 @@
 </main>
 	
 	<footer>
+		<div>
+			<a onclick="topFunction()" id="myBtn" title="Back to Top">Back to Top</a>
+		</div>		
+		
 		<div>&#169; Nancy Hsieh 2020</div>
 	</footer>
+
 </body>
 
 </html>
