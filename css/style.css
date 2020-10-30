@@ -1,6 +1,7 @@
 /*
 Colors used:
-Grey): #F2F2F2;
+(Grey): #F2F2F2;
+(Lt Grey): #666565;
 (Pink): #E85F84;
 (Black): #000000;
 (image): #EBEBEB;
@@ -54,21 +55,20 @@ a {
   font-weight: 400;
 }
 
+a:active { /* selected link */
+  color: #E85F84;
+  text-decoration: underline;
+}
+a:visited { /* visited link */
+  color: #666565;
+}
 a:hover {
   color: #E85F84;
-  /*text-decoration: underline;*/ /* Underlining when hovering over a link */
-}
-
-a:visited { /* visited link */
-  color: #000000;
-}
-
-a:active { /* selected link */
-  color: #DB7093;
+  text-decoration: underline; /* Underlining when hovering over a link */
 }
 
 a:hover,
-a:focus {
+a:focus, nav .current-page {
   color: #E85F84;
   text-decoration: underline;
 }
@@ -85,7 +85,8 @@ li {
 }​
  
 #skills{
-	font-weight: 500;	
+	text-decoration: underline;	
+	color: #000000;
 }
 
 .button.contact {
@@ -94,5 +95,5 @@ li {
 }
 
 .button.contact:hover {
-  color: #E85F84;
+  color: #666565;
 }
