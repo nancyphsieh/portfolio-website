@@ -13,15 +13,19 @@ Libre Franklin;
 body {
   background-color: #F2F2F2;
   font-family: 'Libre Franklin', sans-serif;
-  font-size: 12px; /* Sets the font size to 16px */
+  font-size: 12.8px; /* Sets the font size to 16px */
   font-weight: 400; /* Sets the font weight to 300 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  line-height: 1.8; /* Sets the line-height to 1.6 * the font-size */
   color: #000000;
   letter-spacing: .3px;
 }
 
+header {
+  background-color: #F2F2F2;
+}
+
 h1, h2, h3 {
-  line-height: 1.6;
+  line-height: 1.8;
 }
 
 h1 {
@@ -34,14 +38,10 @@ h2 {
   font-weight: 500;
 }
 
-h3 {
-  font-size: 1em;	
-  font-weight: 500;
-}
-
 p{
   font-size: 1em;
   font-weight: 400;
+  line-height: 1.8;
 }
 
 img {
@@ -57,21 +57,21 @@ a {
 
 a:active { /* selected link */
   color: #E85F84;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 a:visited { /* visited link */
-  color: #666565;
+  color: #000000;
 }
 a:hover {
   color: #E85F84;
-  text-decoration: underline; /* Underlining when hovering over a link */
+  /*text-decoration: underline;*/ /* Underlining when hovering over a link */
 }
 
 a:hover,
 a:focus, nav .current-page {
   color: #E85F84;
-  text-decoration: underline;
-}
+ /* text-decoration: underline;
+*/}
 
 li {
  	list-style-type: none;
@@ -79,7 +79,7 @@ li {
 	font-weight: 400;
  }
 
- ul{
+nav > ul{
  	list-style: none;
     padding-left: 0;
 }​
@@ -95,5 +95,86 @@ li {
 }
 
 .button.contact:hover {
-  color: #666565;
+  color: #000000;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.row{
+  margin: 15px 0;
+}
+
+/*#work .row {
+	 padding-top: 0px;
+}*/
+
+.navigation {
+	text-align: left;
+	padding: 20px 0;
+}
+
+hr {
+  margin-top: 12px;
+  margin-bottom: 11px;
+  border-bottom: 1px;
+}
+
+/*nav > ul {
+	list-style-type: none; 
+	padding: 0;
+}
+*/
+/*nav > ul > li {
+	display: inline-block;
+}
+*/
+
+/*nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+*/
+
+.row ul {
+	list-style: none;
+    padding-left: 0;
+}
+
+.row #p1 {
+	padding-top: 10px;
+}
+
+.row h2 {
+	padding-top: 10px;
+}
+
+.row .mephoto {
+	padding-top: 15px;
+}
+
+footer .copy1 {
+	padding-top: 15px;
+}
+
+footer .up1 {
+	padding-top: 15px;
+}
+
+h1 {
+	padding-top: 30px;
+}
+
+.menu-button {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    text-align: right;
+}
+
+.container .spacephoto {
+	margin-bottom: 50px;
 }
