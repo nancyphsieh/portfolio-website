@@ -9,6 +9,9 @@ Typography used:
 Libre Franklin;
 */
 
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-color: #F2F2F2;
@@ -77,13 +80,19 @@ li {
  	list-style-type: none;
 	font-size: 1em;
 	font-weight: 400;
+	/*border-bottom: 1px solid black;*/
  }
 
-nav > ul{
+ul > li {
+	  border-bottom: 1PX solid black;
+}
+
+nav > ul {
  	list-style: none;
     padding-left: 0;
 }​
- 
+
+
 #skills{
 	text-decoration: underline;	
 	color: #000000;
@@ -178,3 +187,8 @@ h1 {
 .container .spacephoto {
 	margin-bottom: 50px;
 }
+
+.skills li {
+	border-bottom: none;
+}
+
