@@ -169,11 +169,13 @@ nav > ul {
 }
 
 footer .copy1 {
-	padding-top: 15px;
+	padding-top: 30px;
 }
 
 footer .up1 {
 	padding-top: 15px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 /*h1 {
@@ -203,7 +205,7 @@ Medium devices (640px and larger)
 header h1{
 	float:left;
 	text-align: unset;
-    margin: 30px 6px 50px 0px; 
+    margin: 35px 6px 50px 0px; 
  	}
 
 nav ul li {
@@ -212,7 +214,7 @@ nav ul li {
 	border-bottom: 0;
 	/*padding: 30px 0 30px;*/
 /*	margin:8.576px 0 0;*/
-	margin: 25px 20px 60px 0px;
+	margin: 0px 20px 60px 0px;
 	}
 .col-md-6 {
   width: 70%;
@@ -230,6 +232,10 @@ a:focus, nav .current-page {
 	padding: 0 50px;
 }
 
+footer .up1 {
+	position:fixed;
+  	bottom:0;
+}
 }
 
 /* ==============================
@@ -243,7 +249,7 @@ Large devices (1024px or larger)
 
 
 
-@keyframes color-change {
+/*@keyframes color-change {
   from {fill: #edc655;}
   to {fill: #f76414;}
 }
@@ -273,4 +279,4 @@ Large devices (1024px or larger)
 @keyframes cloud-move-reverse {
   from {transform: translate(446px,48px);}
   to {transform: translate(100px, 48px);}
-}
+}*/
