@@ -65,20 +65,20 @@ a {
 
 a:active { /* selected link */
   color: #E85F84;
-  /*text-decoration: underline;*/
 }
+
 a:visited { /* visited link */
   color: #000000;
 }
+
 a:hover {
   color: #E85F84;
-  /*text-decoration: underline;*/ /* Underlining when hovering over a link */
 }
 
 a:hover,
 a:focus, nav .current-page {
-  color: #000000;
-/*  text-decoration: underline;*/
+  color: #E85F84;
+  text-decoration: underline;
 }
 
 li {
@@ -99,6 +99,8 @@ nav > ul {
 }​
 
 
+
+
 #skills{
 	text-decoration: underline;	
 	color: #000000;
@@ -117,39 +119,6 @@ nav > ul {
 .container {
 	padding: 0 15px;
 }
-
-/*.row{
-	margin: 10px 0;
-}
-*/
-/*#work .row {
-	 padding-top: 0px;
-}*/
-
-/*.navigation {
-	text-align: left;
-	padding: 20px 0;
-}
-*/
-
-
-/*nav > ul {
-	list-style-type: none; 
-	padding: 0;
-}
-*/
-/*nav > ul > li {
-	display: inline-block;
-}
-*/
-
-/*nav > ul > li > a {
-  padding: 0 15px;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #4a4a4a;
-}
-*/
 
 .row ul {
 	list-style: none;
@@ -178,17 +147,6 @@ footer .up1 {
 	margin-bottom: 30px;
 }
 
-/*h1 {
-	padding-top: 30px;
-}*/
-
-/*.menu-button {
-    position: relative;
-    display: block;
-    cursor: pointer;
-    text-align: right;
-}*/
-
 .container .spacephoto {
 	margin-bottom: 50px;
 }
@@ -216,6 +174,9 @@ nav ul li {
 /*	margin:8.576px 0 0;*/
 	margin: 0px 20px 60px 0px;
 	}
+
+
+
 .col-md-6 {
   width: 70%;
   float: right;
@@ -246,37 +207,3 @@ Large devices (1024px or larger)
 	padding: 0 100px;
 }
 }
-
-
-
-/*@keyframes color-change {
-  from {fill: #edc655;}
-  to {fill: #f76414;}
-}
-
-
-@keyframes color-change {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
-}
-
-
-.sun {
-  animation: 4s color-change infinite alternate linear;
-}
-
-@keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
-}
-
-
-.cloud-front {
-  animation: 30s cloud-move infinite alternate linear;
-}
-
-@keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
-}*/
