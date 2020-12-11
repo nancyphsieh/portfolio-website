@@ -35,7 +35,8 @@ h1 {
   font-size: 1em;
   font-weight: 400;
   /*margin-bottom: 0;*/
-  margin: 30px 6px 30px 0px;
+  margin: 30px 0px 30px 0px;
+  /*max-width: 200px;*/
 }
 
 h2 {
@@ -72,13 +73,13 @@ a:visited { /* visited link */
 }
 
 a:hover {
-  color: #E85F84;
+  color: #000000;
 }
 
 a:hover,
 a:focus, nav .current-page {
-  color: #E85F84;
-  text-decoration: underline;
+  color: #000000;
+  /*text-decoration: underline;*/
 }
 
 li {
@@ -97,9 +98,6 @@ nav > ul {
     padding-left: 0;
     margin-bottom: 30px;
 }​
-
-
-
 
 #skills{
 	text-decoration: underline;	
@@ -139,12 +137,13 @@ nav > ul {
 
 footer .copy1 {
 	padding-top: 30px;
+	padding-bottom:30px;
 }
 
 footer .up1 {
-	padding-top: 15px;
+	padding-top: /*15px;*/30px;
 	padding-bottom: 30px;
-	margin-bottom: 30px;
+	margin-bottom: /*30px;*/0px;
 }
 
 .container .spacephoto {
@@ -154,6 +153,38 @@ footer .up1 {
 .skills li {
 	border-bottom: none;
 }
+
+
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+}
+
+/*.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}*/
 
 /* ==============================
 Medium devices (640px and larger)
@@ -197,6 +228,23 @@ footer .up1 {
 	position:fixed;
   	bottom:0;
 }
+
+a:hover,
+a:focus, footer .up1 {
+  color: #000000;
+  text-decoration: none;
+}
+
+.navtoggle li:not(:last-child) {
+  display: inline-block;
+}
+.navtoggle li:last-child {
+  display: none;
+}
+
+
+
+
 }
 
 /* ==============================
