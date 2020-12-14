@@ -9,52 +9,61 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="author" content="NancyHsieh">
 	<meta name="description" content="Portfolio GraphicDesign">
+	<script src="https://kit.fontawesome.com/54dc57cc38.js" crossorigin="anonymous"></script>
 	<title>Project Noted</title>
 </head>
 
 <body>
-	<header class="container">
+	<header>
+		<div class="container">
+			<div class="navtoggle" id="myNavtoggle">
 
-		<h1><a href="index.html">Nancy Hsieh<br>—Graphic Designer</h1>
-			
-			<div class="col-md-6">			
-				<nav class="navigation">
-					<ul>
-						<li><a href="index.html" class="current-page">Projects</a></li>
-						<li><a href="about.html">About</a></li>
-					</ul>
-				</nav>
+				<h1><a href="index.html">Nancy Hsieh<br>—Graphic Designer</a></h1>
+
+					<div class="col-md-6">			
+						<nav>
+
+							<ul>
+							<li><a href="index.html" class="current-page">Projects</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><!-- i class="fas fa-bars"></i> -->Menu</a></li>
+							</ul>
+
+						</nav>
+					</div>
+
 			</div>	
-				
+		</div>	
 	</header>
 
 	<main>
 		<div id="work">
 			<div class="container">	
 				<div class="col-md-6">
-				<div>
-					<h2>Project:<br>Note Taking App</h2>
+					<div>
+						<h2>Project:<br>Note Taking App</h2>
 
-					<p>Noted is a simple note taking app. What makes this app different is all its capabilities are just a tap away. Organize notes into folders. Notes can be formatted on a grid, chart, lines, or blank pages. Attach images and links as well as sketches (with the pencil and color wheel tools) to make your notes stand out.</p>	
+						<p>Noted is a simple note taking app. What makes this app different is all its capabilities are just a tap away. Organize notes into folders. Notes can be formatted on a grid, chart, lines, or blank pages. Attach images and links as well as sketches (with the pencil and color wheel tools) to make your notes stand out.</p>	
 
-					<p class="spacephoto">Design Process:<br>Research about note taking apps showed users wanted note taking apps to provide organization options, formatting tools, minimal clicking, sharing capabilities, and basically replace the ease and fuss of papers in notebooks. Notes need sorting options, such as sorting notes by newest created or newest modified. Folders should be nested for maximum multi-level organizational capabilities. Customizing note pages with images, photos, sketches, lines, etc. Users want an app that they can use throughout their entire writing process from research to writing and printing. After identifying the main components necessary for the best art app experience, design iterations were explored and protyped.
-					</p>
-				</div>	
+						<p class="spacephoto">Design Process:<br>Research about note taking apps showed users wanted note taking apps to provide organization options, formatting tools, minimal clicking, sharing capabilities, and basically replace the ease and fuss of papers in notebooks. Notes need sorting options, such as sorting notes by newest created or newest modified. Folders should be nested for maximum multi-level organizational capabilities. Customizing note pages with images, photos, sketches, lines, etc. Users want an app that they can use throughout their entire writing process from research to writing and printing. After identifying the main components necessary for the best art app experience, design iterations were explored and protyped.
+						</p>
+					</div>	
 
-				<div class="row">
-					<picture>
-				      	<source srcset="img/noted/notedintro.jpg" media="(max-width:767px)">
-				     	<img src="img/noted/notedintro@2x.jpg" alt="noted">
-				    </picture>
+					<div class="row">
+						<picture>
+					      	<source srcset="img/noted/notedintro.jpg" media="(max-width:767px)">
+					     	<img src="img/noted/notedintro@2x.jpg" alt="noted">
+					    </picture>
+					</div>
+
+					<div class="row">
+						<picture>
+					      	<source srcset="img/noted/notedmockup.jpg" media="(max-width:767px)">
+					     	<img src="img/noted/notedmockup@2x.jpg" alt="noted">
+					    </picture>
+					</div>
+
 				</div>
-
-				<div class="row">
-					<picture>
-				      	<source srcset="img/noted/notedmockup.jpg" media="(max-width:767px)">
-				     	<img src="img/noted/notedmockup@2x.jpg" alt="noted">
-				    </picture>
-				</div>
-
 			</div>
 		</div>
 	</main>
@@ -75,6 +84,9 @@
 
 		</div>	
 	</footer>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/scripts.js"></script>
 
 </body>
 
