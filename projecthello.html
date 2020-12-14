@@ -9,53 +9,63 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="author" content="NancyHsieh">
 	<meta name="description" content="Portfolio GraphicDesign">
+	<script src="https://kit.fontawesome.com/54dc57cc38.js" crossorigin="anonymous"></script>
 	<title>Project Hello</title>
 </head>
 
 <body>
-	<header class="container">
+	<header>
+		<div class="container">
+			<div class="navtoggle" id="myNavtoggle">
 
-		<h1><a href="index.html">Nancy Hsieh<br>—Graphic Designer</h1>
-			
-			<div class="col-md-6">			
-				<nav class="navigation">
-					<ul>
-						<li><a href="index.html" class="current-page">Projects</a></li>
-						<li><a href="about.html">About</a></li>
-					</ul>
-				</nav>
+				<h1><a href="index.html">Nancy Hsieh<br>—Graphic Designer</a></h1>
+
+					<div class="col-md-6">			
+						<nav>
+
+							<ul>
+							<li><a href="index.html" class="current-page">Projects</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><!-- i class="fas fa-bars"></i> -->Menu</a></li>
+							</ul>
+
+						</nav>
+					</div>
+
 			</div>	
-				
+		</div>	
 	</header>
 
 	<main>
 		<div id="work">
 			<div class="container">	
 				<div class="col-md-6">
-				<div>
-					<h2>Project:<br>Messenger App</h2>
+					<div>
+						<h2>Project:<br>Messenger App</h2>
 
-					<p>Hello is an up-and-coming chat app for groups. You can create all the groups you want to and invite all the people you want to them. The developers recommend this app to people on sports teams, school groups, gaming clans, work groups, and anything like that. Everybody joins in, chats it up, and has a good time. You can organize your groups into various channels. You can also directly message, video call, and voice call individuals.</p>	
+						<p>Hello is an up-and-coming chat app for groups. You can create all the groups you want to and invite all the people you want to them. The developers recommend this app to people on sports teams, school groups, gaming clans, work groups, and anything like that. Everybody joins in, chats it up, and has a good time. You can organize your groups into various channels. You can also directly message, video call, and voice call individuals.</p>	
 
-					<p class="spacephoto">Design Process:<br>Research about messenger apps showed users wanted no fuss and worry about staying in touch. That’s more important than ever these days, when coronavirus pandemic restrictions make it hard for friends and family to gather in the same place. Using a good chat app can be just like being there, particularly if those apps offer additional features such as voice or video chat, as well as the ability to  swap pictures and take care of other tasks you would otherwise handle in person. The chat apps that come as defaults on your phone, both Apple and Google make their own Messages app for iOS and Android, respectively. They pack in a lot of features, but can be dry to look at.</p>
-				</div>	
+						<p class="spacephoto">Design Process:<br>Research about messenger apps showed users wanted no fuss and worry about staying in touch. That’s more important than ever these days, when coronavirus pandemic restrictions make it hard for friends and family to gather in the same place. Using a good chat app can be just like being there, particularly if those apps offer additional features such as voice or video chat, as well as the ability to  swap pictures and take care of other tasks you would otherwise handle in person. The chat apps that come as defaults on your phone, both Apple and Google make their own Messages app for iOS and Android, respectively. They pack in a lot of features, but can be dry to look at.</p>
+					</div>	
 
-				<div class="row">
-					<picture>
-				      	<source srcset="img/hello/hellointro.jpg" media="(max-width:767px)">
-				     	<img src="img/hello/hellointro@2x.jpg" alt="hello">
-				    </picture>
+					<div class="row">
+						<picture>
+					      	<source srcset="img/hello/hellointro.jpg" media="(max-width:767px)">
+					     	<img src="img/hello/hellointro@2x.jpg" alt="hello">
+					    </picture>
+					</div>
+
+					<div class="row">
+						<picture>
+					      	<source srcset="img/hello/hellomockup.jpg" media="(max-width:767px)">
+					     	<img src="img/hello/hellomockup@2x.jpg" alt="hello">
+					    </picture>
+					</div>
+
 				</div>
-
-				<div class="row">
-					<picture>
-				      	<source srcset="img/hello/hellomockup.jpg" media="(max-width:767px)">
-				     	<img src="img/hello/hellomockup@2x.jpg" alt="hello">
-				    </picture>
-				</div>
-
 			</div>
 		</div>
+			
 	</main>
 
 	<footer>
@@ -74,6 +84,9 @@
 
 		</div>	
 	</footer>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/scripts.js"></script>
 
 </body>
 
