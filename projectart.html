@@ -9,24 +9,31 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="author" content="NancyHsieh">
 	<meta name="description" content="Portfolio GraphicDesign">
+	<script src="https://kit.fontawesome.com/54dc57cc38.js" crossorigin="anonymous"></script>
 	<title>Project Artifact</title>
 </head>
 
 <body>
-	<div id="top"></div>
-	<header class="container">
+	<header>
+		<div class="container">
+			<div class="navtoggle" id="myNavtoggle">
 
-			<h1><a href="index.html">Nancy Hsieh<br>—Graphic Designer</h1>
+				<h1><a href="index.html">Nancy Hsieh<br>—Graphic Designer</a></h1>
 
-			<div class="col-md-6">			
-				<nav class="navigation">
-					<ul>
-						<li><a href="index.html" class="current-page">Projects</a></li>
-						<li><a href="about.html">About</a></li>
-					</ul>
-				</nav>
+					<div class="col-md-6">			
+						<nav>
+
+							<ul>
+							<li><a href="index.html" class="current-page">Projects</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><!-- i class="fas fa-bars"></i> -->Menu</a></li>
+							</ul>
+
+						</nav>
+					</div>
+
 			</div>	
-				
+		</div>	
 	</header>
 
 	<main>
@@ -34,29 +41,31 @@
 			<div class="container">	
 				<div class="col-md-6">
 
-				<div>
+					<div>
 					<h2>Project:<br>Art History App</h2>
 
 						<p>Artifact features over 250,000 artworks by 3,000 artists. These artworks are in museums, universities, town halls, and other civic buildings of more than 100 countries. Artifact is an app that allows you to filter art by various categories, organize searches, as well as filter by year or title. Information about selected artworks is available along with artist biographies. Notes can be made with each artwork/artist and photos can be attached. It is a lot of knowledge at your fingertips. Artifact can also identify art, objects and architecture with just a scan so users can learn as they see them.</p>	
 					
-						<p class="spacephoto"> Design Process:<br>Research about art history apps showed users looking for new ways to explore and learn about art for the classroom, or personal enjoyment and enrichment. There are many art apps on the market. Some apps identify art for users looking to buy and collect. Some are for museums and other art institutions allowing for a virtual experience. Some are educational with a large collection of art from all over the world. Artifact is both educational and identifying artwork. Of the educational art apps, users found them difficult to search for art and found the navigation options to be confusing and unorganized. They also wanted the option to save art and create notes if needed. Filtering reduced the amount of time and frustration users took to find art. After identifying the main components necessary for the best art app experience, design iterations were explored and protoyped. A new logomark was created by merging the letter "a" with that of a camera icon.</p>
-				</div>	
+						<p class="spacephoto"> Design Process:<br>Research about art history apps showed users looking for new ways to explore and learn about art for the classroom, or personal enjoyment and enrichment. There are many art apps on the market. Some apps identify art for users looking to buy and collect. Some are for museums and other art institutions allowing for a virtual experience. Some are educational with a large collection of art from all over the world. Artifact is both educational and identifying artwork. Of the educational art apps, users found them difficult to search for art and found the navigation options to be confusing and unorganized. They also wanted the option to save art and create notes if needed. Filtering reduced the amount of time and frustration users took to find art. After identifying the main components necessary for the best art app experience, design iterations were 	explored and protoyped. A new logomark was created by merging the letter "a" with that of a camera icon.</p>
 
-			<div class="row">
-				<picture>
-	      			<source srcset="img/artifact/artifactintro.jpg" media="(max-width:767px)">
-	     			<img src="img/artifact/artifactintro@2x.jpg" alt="artifact">
-	    		</picture>
-    		</div>
+					</div>	
 
-    		<div class="row">
-				<picture>
-	      		<source srcset="img/artifact/artifactmockup.jpg" media="(max-width:767px)">
-	     		<img src="img/artifact/artifactmockup@2x.jpg" alt="artifact">
-	    		</picture>
-    		</div>
+						<div class="row">
+							<picture>
+				      			<source srcset="img/artifact/artifactintro.jpg" media="(max-width:767px)">
+				     			<img src="img/artifact/artifactintro@2x.jpg" alt="artifact">
+				    		</picture>
+			    		</div>
 
-    		</div>
+			    		<div class="row">
+							<picture>
+				      		<source srcset="img/artifact/artifactmockup.jpg" media="(max-width:767px)">
+				     		<img src="img/artifact/artifactmockup@2x.jpg" alt="artifact">
+				    		</picture>
+			    		</div>
+
+    			</div>
+    		</div>	
     	</div>	
 	</main>
 
@@ -76,6 +85,9 @@
 
 		</div>	
 	</footer>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/scripts.js"></script>
 
 </body>
 
