@@ -106,12 +106,13 @@ nav > ul {
 
 .button.contact {
   	color: #000000;
-  	text-decoration: underline;
+  	text-decoration: none;
+  	color: #E85F84;
 
 }
 
 .button.contact:hover {
-  	color: #000000;
+  	color: #E85F84;
 }
 
 .container {
